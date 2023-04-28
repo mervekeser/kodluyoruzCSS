@@ -1,3 +1,42 @@
+/* body içerisindeki elemanların konumu ve yazı boyutu stili  */
 body {
-    background-color: brown;
+    font-size: 16px;
+    text-align: center;
+}
+/* table içerisindeki ilk satırın boyutu ve dış boşluk stili */
+.box {
+    width: 1135px;
+   
+    height: 65px;
+    margin-left: 63px;
+    
+}
+/* table içerisindeki ikinci satırın boyutu ve dış boşluk stili */
+.box2 {
+    
+    width: 1141px;
+    height: 65px;
+    margin-left: 60px;
+    
+}
+/* table içerisindeki satır ve sütunların arka plan rengi ve iç boşluk boyutu */
+.line1 {
+    background-color: #EEEEEE;
+}
+
+.column1 {
+    
+    padding: 18px;
+    background-color: #7EE5DA;
+
+}
+
+.column2 {
+    padding: 9px;
+    background-color: #70CCC2;
+}
+
+.column3 {
+    padding: 5px;
+    background-color: #62B3AA;
 }
